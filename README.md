@@ -6,7 +6,7 @@ I'll be using K-means algorithm which is an unsupervised learning approach, that
 STEPS:
 1. Firstly, we will configure our accelerometer such that it gives 0g readings on monitor, along X and Y-axis. It depicts that bridge is stable.
 2. Now, use the first motor and record the readings on a text file.
-3. Repeat step 2 for 2 motors, 3 motors, and so on (I have used maximum 5 motors). More the number of motors, more the deflections along X and Y-axis.
+3. Repeat step 2 for 2 motors, 3 motors, and so on (I have used maximum 5 motors). More the number of motors, more the vibrations on the breadboard, hence more will be the deflections along X and Y-axis.
 4. Merge all the readings in one text file.
 (The arrangement of motors on the breadboard is shown in pictures).
 5. Then we will write a pyhton code for implementing K-means algorithm.
