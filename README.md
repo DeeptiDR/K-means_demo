@@ -10,6 +10,6 @@ STEPS:
 4. Merge all the readings in one text file.
 (The arrangement of motors on the breadboard is shown in pictures).
 5. Then we will write a pyhton code for implementing K-means algorithm.
-6 I have considered two features here, deflections across x-axis and deflections across y-axis. So, the curve will be a 2-D curve.
+6. I have considered two features here, deflections across x-axis and deflections across y-axis. So, the curve will be a 2-D curve.
 7. Now, with all the data in one file, we will feed it to K-means algorithm and plot the curve for K=5.
 (The python file and curve is given in this repository).
