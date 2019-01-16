@@ -2,6 +2,7 @@
 Suppose, we want to do vibration analysis of bridges under moving vehicles for its structural health monitoring.
 In this demo, I'll be using a breadboard (as a bridge on which vibration analysis has to be performed), a few coin vibration motors(for producing vibrations), an accelerometer module (ADXL355B/ GY-61), and any microcontroller to receive data serially on monitor.
 I'll be using K-means algorithm which is an unsupervised learning approach, that helps us visualise the patterns/sub-groups within a population of datapoints.
+I have shown three different plots for the same set of readings. It simply means, that the algorithm has clusterised the data in 3 different ways each time.
 
 STEPS:
 1. Firstly, we will configure our accelerometer such that it gives 0g readings on monitor, along X and Y-axis. It depicts that bridge is stable.
